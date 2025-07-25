@@ -8,7 +8,7 @@ Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** 
 
 - **Assinatura do Azure** (ou [conta gratuita](https://azure.microsoft.com/free))
 - **Permissão**: função **Contribuidor** no escopo da assinatura ou do grupo de recursos alvo
-- **Rede Virtual** com **sub‑rede delegada** a `Microsoft.Sql/managedInstances` (exercite cuidado para não ter outras operações em andamento nesta sub‑rede) :contentReference[oaicite:2]{index=2}  
+- **Rede Virtual** com **sub‑rede delegada** a `Microsoft.Sql/managedInstances` (exercite cuidado para não ter outras operações em andamento nesta sub‑rede) 
 - Navegador atualizado para acessar o [Portal do Azure](https://portal.azure.com)
 
 ---
