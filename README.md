@@ -6,10 +6,10 @@ Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** 
 
 ## 🛠️ Pré‑requisitos
 
-- **Assinatura do Azure** (ou [conta gratuita](https://azure.microsoft.com/free)) :contentReference[oaicite:0]{index=0}  
-- **Permissão**: função **Contribuidor** no escopo da assinatura ou do grupo de recursos alvo :contentReference[oaicite:1]{index=1}  
+- **Assinatura do Azure** (ou [conta gratuita](https://azure.microsoft.com/free))
+- **Permissão**: função **Contribuidor** no escopo da assinatura ou do grupo de recursos alvo
 - **Rede Virtual** com **sub‑rede delegada** a `Microsoft.Sql/managedInstances` (exercite cuidado para não ter outras operações em andamento nesta sub‑rede) :contentReference[oaicite:2]{index=2}  
-- Navegador atualizado para acessar o [Portal do Azure](https://portal.azure.com) :contentReference[oaicite:3]{index=3}  
+- Navegador atualizado para acessar o [Portal do Azure](https://portal.azure.com)
 
 ---
 
@@ -20,10 +20,10 @@ Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** 
 
 2. **Navegar até SQL do Azure**  
    No menu à esquerda, clique em **SQL do Azure**.  
-   > Caso não encontre, selecione **Todos os serviços** e pesquise por “SQL do Azure”. :contentReference[oaicite:4]{index=4}
+   > Caso não encontre, selecione **Todos os serviços** e pesquise por “SQL do Azure”.
 
 3. **Iniciar criação**  
-   Clique em **+ Criar**, escolha **Instâncias gerenciadas de SQL** e depois **Criar**. :contentReference[oaicite:5]{index=5}
+   Clique em **+ Criar**, escolha **Instâncias gerenciadas de SQL** e depois **Criar**. 
 
 4. **Guia Básico – Informações Obrigatórias**  
    Preencha os campos mínimos:  
@@ -45,22 +45,22 @@ Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** 
    - **Camada de serviço**: Uso Geral (GP)  
    - **Geração do hardware**: Gen5  
    - **vCores**: 8 (padrão)  
-   - **Armazenamento**: 256 GB (ou conforme necessidade) :contentReference[oaicite:7]{index=7}  
+   - **Armazenamento**: 256 GB (ou conforme necessidade) 
    Clique em **Aplicar**.
 
 6. **Guia Rede**  
    - **Rede Virtual / Sub‑rede**: selecione a VNet e a sub‑rede delegada.  
    - **Ponto de extremidade público**: **Desabilitar** (recomendado) ou habilitar e restringir acesso posteriormente.  
-   - **Permitir acesso de**: **Sem acesso** se ponto de extremidade público estiver habilitado. :contentReference[oaicite:8]{index=8}
+   - **Permitir acesso de**: **Sem acesso** se ponto de extremidade público estiver habilitado.
 
 7. **Guia Segurança e Configurações Adicionais**  
-   Deixe as opções em padrão ou ajuste conforme políticas internas (ordenamento, fuso‑horário, janelas de manutenção, tags etc.). :contentReference[oaicite:9]{index=9}
+   Deixe as opções em padrão ou ajuste conforme políticas internas (ordenamento, fuso‑horário, janelas de manutenção, tags etc.).
 
 8. **Revisar e Criar**  
    Na aba **Revisar + criar**, verifique todas as configurações e clique em **Criar**.  
 
 9. **Monitorar implantação**  
-   Abra o ícone **Notificações** no canto superior direito e selecione a operação em andamento para acompanhar o progresso. :contentReference[oaicite:10]{index=10}  
+   Abra o ícone **Notificações** no canto superior direito e selecione a operação em andamento para acompanhar o progresso.
 
 10. **Verificar recurso criado**  
     Após a conclusão (30–60 min), vá ao **Grupo de Recursos** e confirme se a Instância Gerenciada de SQL aparece listada.
@@ -69,12 +69,12 @@ Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** 
 
 ## 📄 Observações
 
-- A criação pode demorar até **60 minutos**, dependendo de outras operações na sub‑rede :contentReference[oaicite:11]{index=11}  
-- Se precisar abortar o processo, use o comando **Cancelar** na notificação ou no próprio bloco de implantação :contentReference[oaicite:12]{index=12}  
+- A criação pode demorar até **60 minutos**, dependendo de outras operações na sub‑rede
+- Se precisar abortar o processo, use o comando **Cancelar** na notificação ou no próprio bloco de implantação
 - Para migrar bancos de dados, configure **Conexão Privada** e **Regras de Firewall/NSG** após a implantação  
 
 ---
 
 ## 🔗 Referência
 
-- Microsoft Learn: **Início Rápido – Criar Instância Gerenciada de SQL do Azure (Portal)** :contentReference[oaicite:13]{index=13}  
+- Microsoft Learn: **Início Rápido – Criar Instância Gerenciada de SQL do Azure (Portal)**
