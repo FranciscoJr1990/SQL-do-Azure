@@ -1,5 +1,4 @@
-# SQL-do-Azure
-Criar Instância Gerenciada de SQL do Azure
+# Quickstart: Criar Instância Gerenciada de SQL do Azure (Portal)
 
 Este guia mostra como provisionar uma **Instância Gerenciada de SQL do Azure** diretamente pelo **Portal do Azure**, sem necessidade de scripts ou ferramentas de linha de comando.
 
